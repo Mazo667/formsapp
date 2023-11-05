@@ -7,6 +7,7 @@ class AppTheme {
     return ThemeData(
         useMaterial3: true,
         colorSchemeSeed: seedColor,
-        listTileTheme: const ListTileThemeData(iconColor: seedColor));
+        listTileTheme: const ListTileThemeData(iconColor: seedColor)
+    );
   }
 }

@@ -9,10 +9,14 @@ final appRouter = GoRouter(
         builder: (context, state) => const HomeScreen()),
       //Cubits
       GoRoute(
-          path: '/cubits',
+          path: '/counter-cubits',
           builder: (context, state) => const CubitCounterScreen()),
       //Block
       GoRoute(
-          path: '/blocs',
+          path: '/counter-blocs',
           builder: (context, state) => const BlockCounterScreen()),
+      //Register
+      GoRoute(
+          path: '/new-user',
+          builder: (context, state) => const RegisterScreen()),
     ]);
